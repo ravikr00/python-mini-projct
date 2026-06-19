@@ -1,0 +1,11 @@
+expenses = []
+
+while True:
+    amount = input("Enter expense (or q): ")
+
+    if amount.lower() == "q":
+        break
+
+    expenses.append(float(amount))
+
+print("Total Expense =", sum(expenses))
