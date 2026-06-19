@@ -1,0 +1,9 @@
+import time 
+second=int(input("  enter seconds"))
+while second:
+    mins,secs=divmod(second,60)
+    print(f"{mins:02d}:{secs:02d}")
+    time.sleep(1)
+    second-= 1
+print("Time"  )
+    
